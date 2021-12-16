@@ -4,7 +4,12 @@
   padding-bottom: 60px;
 }
 
-.footer-address {
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__address {
   margin-right: 70px;
 }
 
@@ -12,21 +17,12 @@
   padding-top: 12px;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-logo {
+.footer-address__logo {
   display: block;
   margin-bottom: 20px;
 }
 
-.logo-item-footer {
-  color: var(--second-title-color);
-}
-
-.address-item {
+.address-list__link {
   display: block;
   font-style: normal;
   font-weight: normal;
@@ -41,7 +37,7 @@
   }
 }
 
-.address-list-item:not(:last-child) {
+.address-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -54,7 +50,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-text {
+.footer-links__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -64,44 +60,12 @@
   margin-bottom: 20px;
 }
 
-.footer-social-list {
-  display: flex;
-}
-
-.footer-social-item {
-  width: 44px;
-  height: 44px;
-}
-
-.footer-social-item + .footer-social-item {
-  margin-left: 10px;
-}
-
-.footer-social-link {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-  }
-}
-
-.footer-social-icon {
-  fill: var(--second-title-color);
-}
-
-.footer-join {
+.footer__join {
   padding-top: 12px;
   margin-left: 93px;
 }
 
-.footer-join-text {
+.footer-join__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -111,11 +75,11 @@
   margin-bottom: 20px;
 }
 
-.footer-join-form {
+.join-form {
   display: flex;
 }
 
-.online-input {
+.join-form__input {
   width: 358px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -151,7 +115,7 @@
   }
 }
 
-.online-form-btn {
+.join-form__btn {
   display: flex;
   align-items: center;
   padding: 10px 28px 10px 29px;
@@ -168,6 +132,6 @@
   border: none;
 }
 
-.online-form-icon {
+.join-form__icon {
   margin-left: 10px;
 }

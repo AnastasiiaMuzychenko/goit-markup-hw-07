@@ -3,7 +3,7 @@
   padding-bottom: 94px;
 }
 
-.clients-title {
+.clients__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -17,12 +17,12 @@
   display: flex;
 }
 
-.clients-list-item {
+.clients-list__item {
   margin-right: 30px;
   box-sizing: border-box;
 }
 
-.clients-list-link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,6 +40,6 @@
   }
 }
 
-.clients-icon {
+.clients-list__icon {
   fill: currentColor;
 }

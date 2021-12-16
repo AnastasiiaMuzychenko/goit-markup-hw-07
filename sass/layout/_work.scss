@@ -2,13 +2,7 @@
   padding-bottom: 94px;
 }
 
-.work-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
-}
-
-.work-title {
+.work__title {
   margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
@@ -18,13 +12,19 @@
   color: var(--main-title-color);
 }
 
-.work-item {
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+.work-list__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   position: relative;
 }
 
-.work-item-text {
+.work-list__text {
   position: absolute;
   bottom: 0;
   left: 0;

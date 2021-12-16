@@ -6,12 +6,12 @@
   display: flex;
 }
 
-.features-item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
   max-width: 270px;
 }
 
-.features-item-title {
+.features__title {
   display: inline-block;
   margin-bottom: 10px;
   font-weight: bold;
@@ -22,7 +22,7 @@
   color: var(--main-title-color);
 }
 
-.features-item-text {
+.features__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -38,12 +38,12 @@
   margin-bottom: 30px;
 }
 
-.features-img-list {
+.img-list {
   display: flex;
   justify-content: center;
 }
 
-.features-img-item {
+.img-list__item {
   display: flex;
   align-items: center;
   justify-content: center;
